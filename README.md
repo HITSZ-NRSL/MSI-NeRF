@@ -53,3 +53,14 @@ python test.py --config ./config/default.txt --gpus 1 --batch_size 1 --ckpts_epo
 ```sh
 python test.py --config ./config/default.txt --gpus 1 --batch_size 1 --ckpts_epoch 29 --traj_type 0 --render_novel_view --eval_nvs (optional)
 ```
+
+if you find this paper useful, please cite:
+
+```bibtex
+@article{yan2024msi,
+  title={MSI-NeRF: Linking Omni-Depth with View Synthesis through Multi-Sphere Image aided Generalizable Neural Radiance Field},
+  author={Yan, Dongyu and Huang, Guanyu and Quan, Fengyu and Chen, Haoyao},
+  journal={arXiv preprint arXiv:2403.10840},
+  year={2024}
+}
+```
