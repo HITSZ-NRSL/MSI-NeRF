@@ -20,6 +20,11 @@ conda env create -f environment.yml
 conda activate msinerf
 ```
 
+## Data and Checkpoint
+
+The Replica360 dataset proposed in the paper can be downloaded [here](https://drive.google.com/file/d/19sy-B9-rViCCnUaXXpRrh0sY7SBkQQ9r/view?usp=sharing) (Only a sample case for testing, full version coming soon!)
+The checkpoint can be downloaded [here](https://drive.google.com/file/d/15nYvTNBsvIXQ1jq54mQ5XgEzUJ_5WNx3/view?usp=sharing)
+
 ## Usage
 
 ### Train
