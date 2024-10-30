@@ -54,7 +54,8 @@ python test.py --config ./config/default.txt --gpus 1 --batch_size 1 --ckpts_epo
 python test.py --config ./config/default.txt --gpus 1 --batch_size 1 --ckpts_epoch 29 --traj_type 0 --render_novel_view --eval_nvs (optional)
 ```
 
-if you find this paper useful, please cite:
+
+**If you find this paper useful, please cite:**
 
 ```bibtex
 @article{yan2024msi,
