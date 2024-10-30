@@ -1,0 +1,45 @@
+# Setting arguments
+exp_name = "MSI-NeRF"
+data_type = "omnihouse"
+data_path = "../../OmniHouse"
+nvs_data_path = "../../Replica360"
+ckpts_dir = "ckpts/"
+prediction_dir = "predictions/"
+
+seed = 1234
+ckpts_epoch = -1
+version = 0
+max_epochs = 30
+batch_size = 1
+num_workers = 4
+split_ratio = 0.95
+val_check_interval = 2432
+log_every_n_steps = 10
+num_sanity_val_steps = 2
+every_n_epochs = 1
+permute_aug = False
+rot_aug = False
+render_novel_view = False
+test_num = 10
+eval_nvs = False
+traj_type = 0
+
+# Network arguments
+depth_layer = 64
+min_depth = 0.5
+fov = 220
+CH = 16
+out_CH = 16
+
+# Trainer arguments
+accelerator = "gpu"
+gpus = 4
+lr = 3e-3
+lr_scheduler = "step"
+lr_decay_steps = 20
+lr_decay_rate = 0.1
+lr_decay_min_lr = 3e-4
+depth_weight = 0
+eqr_sample_num = 8192
+fish_sample_num = 2048
+val_chunk_size = 65536
