@@ -1,7 +1,7 @@
 # MSI-NeRF
 Linking Omni-Depth with View Synthesis through Multi-Sphere Image aided Generalizable Neural Radiance Field
 
-### [Paper](https://arxiv.org/abs/2403.10840) | [Video](https://www.youtube.com/watch?v=UmtEM4Uj5b0)
+### [Paper](https://arxiv.org/abs/2403.10840) | [Supplementary Material](https://github.com/HITSZ-NRSL/MSI-NeRF/blob/main/assets/Supplementary.pdf) | [Video](https://www.youtube.com/watch?v=UmtEM4Uj5b0)
 
 > MSI-NeRF <br />
 > Dongyu Yan, Guanyu Huang, Fengyu Quan and Haoyao Chen <br />
